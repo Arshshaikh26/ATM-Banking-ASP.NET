@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD2D2910-821B-4310-BE3B-A10CC3615733}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ATM</RootNamespace>
+    <AssemblyName>ATM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin add acc cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin add acc cust.Designer.cs">
+      <DependentUpon>admin add acc cust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin create cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin create cust.Designer.cs">
+      <DependentUpon>admin create cust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin cust tran deta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin cust tran deta.Designer.cs">
+      <DependentUpon>admin cust tran deta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin login.Designer.cs">
+      <DependentUpon>admin login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin main.Designer.cs">
+      <DependentUpon>admin main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin view customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin view customer.Designer.cs">
+      <DependentUpon>admin view customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ATMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ATMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ATMDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ATMDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bal enq .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bal enq .Designer.cs">
+      <DependentUpon>bal enq .cs</DependentUpon>
+    </Compile>
+    <Compile Include="balance enery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="balance enery.Designer.cs">
+      <DependentUpon>balance enery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust card no.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust card no.Designer.cs">
+      <DependentUpon>cust card no.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust cash with sav.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust cash with sav.Designer.cs">
+      <DependentUpon>cust cash with sav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust cash with.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust cash with.Designer.cs">
+      <DependentUpon>cust cash with.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust main.Designer.cs">
+      <DependentUpon>cust main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust pin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust pin.Designer.cs">
+      <DependentUpon>cust pin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust receipt.Designer.cs">
+      <DependentUpon>cust receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cust trans cont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cust trans cont.Designer.cs">
+      <DependentUpon>cust trans cont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="admin add acc cust.resx">
+      <DependentUpon>admin add acc cust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin create cust.resx">
+      <DependentUpon>admin create cust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin cust tran deta.resx">
+      <DependentUpon>admin cust tran deta.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin login.resx">
+      <DependentUpon>admin login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin main.resx">
+      <DependentUpon>admin main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin view customer.resx">
+      <DependentUpon>admin view customer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bal enq .resx">
+      <DependentUpon>bal enq .cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="balance enery.resx">
+      <DependentUpon>balance enery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust card no.resx">
+      <DependentUpon>cust card no.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust cash with sav.resx">
+      <DependentUpon>cust cash with sav.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust cash with.resx">
+      <DependentUpon>cust cash with.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust main.resx">
+      <DependentUpon>cust main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust pin.resx">
+      <DependentUpon>cust pin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust receipt.resx">
+      <DependentUpon>cust receipt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cust trans cont.resx">
+      <DependentUpon>cust trans cont.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ATMDataSet.xsc">
+      <DependentUpon>ATMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ATMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ATMDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ATMDataSet.xss">
+      <DependentUpon>ATMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ATMDataSet1.xsc">
+      <DependentUpon>ATMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ATMDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ATMDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ATMDataSet1.xss">
+      <DependentUpon>ATMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
